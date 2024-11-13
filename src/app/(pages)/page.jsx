@@ -7,8 +7,6 @@ import { getSortedPostsData } from "@library/posts";
 
 import FeaturesSection from "@components/sections/Features";
 import AboutThreeSection from "@components/sections/AboutThree";
-import PricingSection from "@components/sections/Pricing";
-import CalculatorSection from "@components/sections/Calculator";
 import SkillsSection from "@components/sections/Skills";
 import LatestPostsSection from "@components/sections/LatestPosts";
 
@@ -40,8 +38,6 @@ async function Home3() {
       <FeaturesSection />
       <AboutThreeSection />
       <TestimonialSlider showPartners={1} />
-      <PricingSection />
-      <CalculatorSection />
       <RecentProjectsSlider />
       <SkillsSection />
       <Suspense fallback={<div>Loading...</div>}>

@@ -1,23 +1,27 @@
 {
-    "title": "A well qualified staff",
-    "subtitle": "Solutions",
-    "description": "Our work staff in all areas and jobs are well qualified in the matters we need to achieve the objectives, in each project we carry out with our clients.",
-    "image": {
-        "url": "/img/photo/2.jpg",
-        "alt": "image"
+  "title": "Why choose us",
+  "subtitle": "bute Constructions",
+  "description": "Built on a foundation of expertise, Bute Construction brings a wealth of knowledge and experience to every project we undertake. We offer high-quality services and consider emerging challenges as factors that drive success. With the commitment to excellence, we deliver results that stand the test of time",
+  "image": {
+    "url": "/img/photo/2.jpg",
+    "alt": "image"
+  },
+  "items": [
+    {
+      "title": "Comprehensive Expertise",
+      "link": "#"
     },
-    "items": [
-        {
-            "title": "Morphological Thinking",
-            "link": "/services/service-1"
-        },
-        {
-            "title": "Creative Architectural",
-            "link": "/services/service-2"
-        },
-        {
-            "title": "Planning Designs",
-            "link": "/services/service-3"
-        }
-    ]
+    {
+      "title": "Modern & Strategical Approach",
+      "link": "#"
+    },
+    {
+      "title": "Quality",
+      "link": "#"
+    },
+    {
+      "title": "Cost Effective Solutions",
+      "link": "#"
+    }
+  ]
 }

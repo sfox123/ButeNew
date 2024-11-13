@@ -1,25 +1,13 @@
 {
-    "title": "What they think of us",
-    "subtitle": "Testimonials",
-    "items": [
-        {
-            "name": "Trevor Virtue",
-            "image": "/img/faces/2.jpg",
-            "role": "Designer",
-            "text": "In my opinion, it was an unforgettable experience working on my ideas. They understood everything I wanted in my project and idea that was great. I would work with ruizarch again for future projects, even to ask them for advice to start projects or ideas."
-        },
-        {
-            "name": "Emma Miller",
-            "image": "/img/faces/1.jpg",
-            "role": "SMM Manager",
-            "text": "In my opinion, it was an unforgettable experience working on my ideas. They understood everything I wanted in my project and idea that was great. I would work with ruizarch again for future projects, even to ask them for advice to start projects or ideas."
-        },
-        {
-            "name": "Paul Trueman",
-            "image": "/img/faces/3.jpg",
-            "role": "Designer",
-            "text": "In my opinion, it was an unforgettable experience working on my ideas. They understood everything I wanted in my project and idea that was great. I would work with ruizarch again for future projects, even to ask them for advice to start projects or ideas."
-        }
-    ],
-    "showPartners": 1
+  "title": "What they think of us",
+  "subtitle": "Google Reviews",
+  "items": [
+    {
+      "name": "Anne and Peter Crofts",
+      "image": "/img/faces/2.jpg",
+      "role": "Client",
+      "text": "A team of engineers re-constructed our pavements in Hawthorn Close, Harpenden recently. Unfortunately both I and my husband, who had open heart surgery a few weeks ago, had medical appointments every morning of the work being done on our side of the road. The team were so helpful and so accommodating, allowing us to have our car on our property and letting us off and on during the week. We realise this made their timing more difficult but at no time was there anything but courtesy shown to us.Thank you to the team and your company for such excellent training."
+    }
+  ],
+  "showPartners": 1
 }
