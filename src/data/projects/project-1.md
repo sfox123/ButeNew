@@ -1,16 +1,16 @@
 ---
 #preview
-title: Interior design studio
-image: /img/covers/1.jpg
-category: Architecture
-category_slug: architecture
+title: ATF Jarman Park
+image: /img/projects/1.png
+category: Project - 1
+category_slug: architecture 
 date: may 24 2023
 
 #full details
 intro:
   subtitle: "Modern concept"
   title: "Interior Design <br/><span class=\"mil-accent\">Studio</span>"
-  bgImage: "/img/covers/8.jpg"
+  bgImage: "/img/projects/8.jpg"
 
 description:
     heading:
@@ -44,13 +44,21 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/1.jpg
+  - image: /img/projects/1.png
     alt: image
 
-  - image: /img/covers/2.jpg
+  - image: /img/projects/2.png
     alt: image
 
-  - image: /img/covers/4.jpg
+  - image: /img/projects/4.png
+    alt: image
+  - image: /img/projects/1.png
+    alt: image
+
+  - image: /img/projects/2.png
+    alt: image
+
+  - image: /img/projects/4.png
     alt: image
 
 resume:

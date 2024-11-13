@@ -1,16 +1,16 @@
 ---
 #preview
-title: Dental Clinic
-image: /img/covers/8.jpg
-category: Interior
-category_slug: interior
-orientation: vertical
+title: Washington Ave Hemel Hampstead
+image: /img/projects/3.png
+category: Project - 8
+category_slug: architecture
+date: may 24 2023
 
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Dental Clinic <br/><span class=\"mil-accent\">Construction</span>"
-  bgImage: "/img/covers/8.jpg"
+  title: "Industrial Factory <br/><span class=\"mil-accent\">Reconstruction</span>"
+  bgImage: "/img/covers/3.jpg"
 
 description:
     heading:
@@ -44,13 +44,13 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/2.jpg
+  - image: /img/covers/4.jpg
     alt: image
 
   - image: /img/covers/1.jpg
     alt: image
 
-  - image: /img/covers/3.jpg
+  - image: /img/covers/2.jpg
     alt: image
 
 resume:

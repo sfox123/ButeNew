@@ -1,15 +1,16 @@
 ---
 #preview
-title: Confidential Technology
-image: /img/covers/7.jpg
-category: Interior
-category_slug: interior
+title: Washington Ave Hemel Hampstead
+image: /img/projects/3.png
+category: Project - 7
+category_slug: architecture
+date: may 24 2023
 
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
-  bgImage: "/img/covers/7.jpg"
+  title: "Industrial Factory <br/><span class=\"mil-accent\">Reconstruction</span>"
+  bgImage: "/img/covers/3.jpg"
 
 description:
     heading:

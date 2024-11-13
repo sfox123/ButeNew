@@ -1,16 +1,16 @@
 ---
 #preview
-title: Smart House by Molekule
-image: /img/covers/5.jpg
-category: Interior
-category_slug: interior
+title: Washington Ave Hemel Hampstead
+image: /img/projects/3.png
+category: Project - 5
+category_slug: architecture
 date: may 24 2023
 
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Smart House <br/><span class=\"mil-accent\">Interior</span>"
-  bgImage: "/img/covers/5.jpg"
+  title: "Industrial Factory <br/><span class=\"mil-accent\">Reconstruction</span>"
+  bgImage: "/img/covers/3.jpg"
 
 description:
     heading:
@@ -44,7 +44,7 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/7.jpg
+  - image: /img/covers/4.jpg
     alt: image
 
   - image: /img/covers/1.jpg

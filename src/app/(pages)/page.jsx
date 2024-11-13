@@ -7,8 +7,6 @@ import { getSortedPostsData } from "@library/posts";
 
 import FeaturesSection from "@components/sections/Features";
 import AboutThreeSection from "@components/sections/AboutThree";
-import SkillsSection from "@components/sections/Skills";
-import LatestPostsSection from "@components/sections/LatestPosts";
 
 const HeroTwoSlider = dynamic(() => import("@components/sliders/HeroTwo"), {
   ssr: false,
@@ -39,10 +37,6 @@ async function Home3() {
       <AboutThreeSection />
       <TestimonialSlider showPartners={1} />
       <RecentProjectsSlider />
-      <SkillsSection />
-      <Suspense fallback={<div>Loading...</div>}>
-        <LatestPostsSection posts={posts} paddingTop />
-      </Suspense>
     </>
   );
 }

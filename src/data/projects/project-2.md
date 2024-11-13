@@ -1,8 +1,8 @@
 ---
 #preview
-title: City House
-image: /img/covers/2.jpg
-category: Architecture
+title: Builders Depot New Southgate
+image: /img/projects/2.png
+category: Project - 2
 category_slug: architecture
 date: may 24 2023
 orientation: vertical

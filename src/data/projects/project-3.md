@@ -1,8 +1,8 @@
 ---
 #preview
-title: Kemia Industrial Factory
-image: /img/covers/3.jpg
-category: Architecture
+title: Washington Ave Hemel Hampstead
+image: /img/projects/3.png
+category: Project - 3
 category_slug: architecture
 date: may 24 2023
 

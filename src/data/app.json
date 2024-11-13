@@ -100,27 +100,37 @@
       "image": "/img/logo/logo-light.png",
       "alt": "Logo"
     },
-    "copy": "© 2023 Ruizarch. All rights reserved.",
+    "copy": "© 2024 Shara Solutions. All rights reserved.",
     "menu": [
       {
         "label": "About",
-        "link": "/about"
+        "link": "/about",
+        "content": "This is the About section content.",
+        "background": "/img/backgrounds/about-bg.jpg"
       },
       {
         "label": "Services",
-        "link": "/services"
+        "link": "/services",
+        "content": "This is the Services section content.",
+        "background": "/img/backgrounds/services-bg.jpg"
       },
       {
         "label": "Projects",
-        "link": "/projects"
+        "link": "/projects",
+        "content": "This is the Projects section content.",
+        "background": "/img/backgrounds/projects-bg.jpg"
       },
       {
         "label": "Blog",
-        "link": "/blog"
+        "link": "/blog",
+        "content": "This is the Blog section content.",
+        "background": "/img/backgrounds/blog-bg.jpg"
       },
       {
         "label": "Contact",
-        "link": "/contact"
+        "link": "/contact",
+        "content": "This is the Contact section content.",
+        "background": "/img/backgrounds/contact-bg.jpg"
       }
     ]
   },

@@ -1,38 +1,71 @@
 {
-    "title": "What We Have Done",
-    "subtitle": "Recent Projects",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "avatar": {
-        "image": "/img/faces/1.jpg",
-        "name": "Joe French",
-        "subname": "Project Agent"
+  "title": "What We Have Done",
+  "subtitle": "Recent Projects",
+  "description": "Our team's expertise in value engineering and smart decision-making ensures that we maximize efficiency without compromising on craftsmanship.",
+  "avatar": {
+    "image": "/img/faces/1.jpg",
+    "name": "Joe French",
+    "subname": "Project Agent"
+  },
+  "links": [
+    {
+      "title": "Morphological Thinking",
+      "link": "/services/service-1"
     },
-    "links": [
-        {
-            "title": "Morphological Thinking",
-            "link": "/services/service-1"
-        },
-        {
-            "title": "Creative Architectural",
-            "link": "/services/service-2"
-        },
-        {
-            "title": "Planning Designs",
-            "link": "/services/service-3"
-        }
-    ],
-    "items": [
-        {
-            "image": "/img/photo/7.jpg",
-            "alt": "image"
-        },
-        {
-            "image": "/img/covers/1.jpg",
-            "alt": "image"
-        },
-        {
-            "image": "/img/photo/8.jpg",
-            "alt": "image"
-        }
-    ]
+    {
+      "title": "Creative Architectural",
+      "link": "/services/service-2"
+    },
+    {
+      "title": "Planning Designs",
+      "link": "/services/service-3"
+    }
+  ],
+  "items": [
+    {
+      "title": "ATF Jarman Park 1414 Project",
+      "image": "/img/projects/1.png",
+      "alt": "image"
+    },
+    {
+      "title": "Builders Depot New Southgate",
+      "image": "/img/projects/2.png",
+      "alt": "image"
+    },
+    {
+      "title": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project",
+      "image": "/img/projects/3.png",
+      "alt": "image"
+    },
+    {
+      "title": "Eurovia - Cherry Three Lane Project",
+      "image": "/img/projects/4.png",
+      "alt": "image"
+    },
+    {
+      "title": "Eurovia - High Street, Tring Project",
+      "image": "/img/projects/5.png",
+      "alt": "image"
+    },
+    {
+      "title": "Hemel Hampstead Leverstock Green Project - Ringway Project",
+      "image": "/img/projects/6.png",
+      "alt": "image"
+    },
+    {
+      "title": "Ringways - ATF Marlborough St. Albans Project",
+      "image": "/img/projects/7.png",
+      "alt": "image"
+    },
+    {
+      "title": "Stevenage Project",
+      "image": "/img/projects/8.png",
+      "alt": "image"
+    },
+    {
+      "title": "Welwyn Garden City",
+      "image": "/img/projects/9.png",
+      "alt": "image"
+    }
+  ]
 }
