@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
 
 import {
@@ -8,18 +9,18 @@ import {
 } from "@library/projects";
 
 import PageBannerTwo from "@components/PageBannerTwo";
-import Link from "next/link";
-
-// Import ProjectsMasonry component
-const ProjectsMasonry = dynamic(() => import("@components/ProjectsMasonry"), {
+import BenefitsSection from "@components/sections/Benefits";
+const FullImageSlider = dynamic(() => import("@components/sliders/FullImage"), {
   ssr: false,
 });
+
+import Link from "next/link";
 
 export async function generateMetadata({ params }) {
   const postData = await getSingleProjectData(params);
 
   return {
-    title: `${postData.title} | Projects`,
+    title: postData.title + " | Projects",
   };
 }
 
@@ -27,77 +28,74 @@ async function ProjectDetail({ params }) {
   const postData = await getSingleProjectData(params);
   const projects = await getAllProjects();
 
-  // Prev and next navigation logic remains the same
+  //prev next navigation
   let prev = { id: 0, key: 0 };
   let next = { id: 0, key: 0 };
   let first = { id: 0 };
   let last = { id: 0 };
 
   projects.forEach(function (item, key) {
-    if (item.id === postData.id) {
+    if (item.id == postData.id) {
       prev.key = key - 1;
       next.key = key + 1;
     }
   });
 
   projects.forEach(function (item, key) {
-    if (key === prev.key) {
+    if (key == prev.key) {
       prev.id = item.id;
     }
-    if (key === next.key) {
+    if (key == next.key) {
       next.id = item.id;
     }
-    if (key === 0) {
+    if (key == 0) {
       first.id = item.id;
     }
-    if (key === projects.length - 1) {
+    if (key == projects.length - 1) {
       last.id = item.id;
     }
   });
 
-  if (prev.key === -1) {
+  if (prev.key == -1) {
     prev.id = last.id;
   }
-  if (next.key === projects.length) {
+  if (next.key == projects.length) {
     next.id = first.id;
   }
 
   return (
     <>
       <PageBannerTwo
-        subTitle={postData.intro.subtitle}
-        title={postData.intro.title}
-        bgImage={postData.intro.bgImage}
+        subTitle={postData.category}
+        title={postData.title}
+        bgImage={postData.image}
       />
 
-      {/* Gallery */}
-      <section>
-        <div className="container mil-p-120-90">
-          <div className="mil-background-grid mil-softened" />
-          <div className="row">
-            {postData.gallery.map((item, key) => (
-              <div
-                className="col-lg-4 col-md-6 mil-masonry-item mil-mb-30"
-                key={`gallery-item-${key}`}
-              >
-                <div className="mil-project-card mil-wow fadeInUp">
-                  <div className="mil-image-frame">
-                    <img src={item.image} alt={item.alt} />
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-      {/* Gallery end */}
+      {/* description */}
+      {/* description end */}
 
-      {/* Next/Prev project */}
+      <div className="container mb-5">
+        <div className="mil-divider-lg" />
+      </div>
+
+      <Suspense fallback={<div>Loading...</div>}>
+        <FullImageSlider items={postData.gallery} />
+      </Suspense>
+
+      {/* resume */}
+
+      {/* resume end */}
+
+      <div className="container mt-5">
+        <div className="mil-divider-lg" />
+      </div>
+
+      {/* next/prev project */}
       <section>
         <div className="container mil-p-120-60">
           <div className="row">
             <div className="col-md-6 col-lg-6">
-              {prev.id !== 0 && (
+              {prev.id != 0 && (
                 <div className="mil-prev-project mil-mb-60">
                   <h4 className="mil-upper mil-up mil-mb-30">
                     Previous project
@@ -115,7 +113,7 @@ async function ProjectDetail({ params }) {
               )}
             </div>
             <div className="col-md-6 col-lg-6">
-              {next.id !== 0 && (
+              {next.id != 0 && (
                 <div className="mil-next-project mil-mb-60">
                   <h4 className="mil-upper mil-up mil-mb-30">Next project</h4>
                   <Link
@@ -133,15 +131,15 @@ async function ProjectDetail({ params }) {
           </div>
         </div>
       </section>
-      {/* Next/Prev project end */}
+      {/* next/prev project end */}
     </>
   );
 }
-
 export default ProjectDetail;
 
 export async function generateStaticParams() {
   const paths = getAllProjectsIds();
+
   return paths;
 }
 
@@ -157,5 +155,6 @@ async function getSingleProjectData(params) {
 
 async function getAllProjects() {
   const allProjects = await getSortedProjectsData();
+
   return allProjects;
 }
