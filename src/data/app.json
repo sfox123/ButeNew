@@ -18,49 +18,22 @@
       {
         "label": "Home",
         "link": "/",
-        "children": []
+        "children": 0
       },
       {
         "label": "Services",
-        "link": "/services",
-        "children": [
-          {
-            "label": "Services List",
-            "link": "/services"
-          },
-          {
-            "label": "Single Service",
-            "link": "/services/service-1"
-          }
-        ]
+        "link": "#services",
+        "children": 0
       },
       {
         "label": "Projects",
         "link": "/projects",
-        "children": [
-          {
-            "label": "Projects Grid",
-            "link": "/projects"
-          },
-          {
-            "label": "Single Project",
-            "link": "/projects/project-1"
-          }
-        ]
+        "children": 0
       },
       {
-        "label": "Blog",
-        "link": "/blog",
-        "children": [
-          {
-            "label": "Blog list",
-            "link": "/blog"
-          },
-          {
-            "label": "Publication",
-            "link": "/blog/the-infrastructure-that-powers-the-world"
-          }
-        ]
+        "label": "Sustainability",
+        "link": "/sustainability",
+        "children": 0
       },
       {
         "label": "Contact Us",
@@ -68,30 +41,9 @@
         "children": 0
       },
       {
-        "label": "Other",
-        "link": "/team",
-        "children": [
-          {
-            "label": "About",
-            "link": "/about"
-          },
-          {
-            "label": "Team",
-            "link": "/team"
-          },
-          {
-            "label": "Team Member",
-            "link": "/team/team-01"
-          },
-          {
-            "label": "Coming Soon",
-            "link": "/coming-soon"
-          },
-          {
-            "label": "404",
-            "link": "/404"
-          }
-        ]
+        "label": "About",
+        "link": "/about",
+        "children": 0
       }
     ]
   },
@@ -100,73 +52,74 @@
       "image": "/img/logo/logo-light.png",
       "alt": "Logo"
     },
+    "chas": {
+      "image": "/img/logo/chas.png",
+      "alt": "chas"
+    },
+    "elite": {
+      "image": "/img/logo/elite.png",
+      "alt": "elite"
+    },
     "copy": "© 2024 Shara Solutions. All rights reserved.",
     "menu": [
       {
         "label": "About",
         "link": "/about",
-        "content": "This is the About section content.",
-        "background": "/img/backgrounds/about-bg.jpg"
+        "content": "Discover Bute Construction, your trusted partner for transformative construction solutions. Based in the vibrant heart of London, we bring over three years of dedicated service to the table, by being a dynamic and experienced leader in the realm of highway maintenance, surfacing, ground works, and external projects. Our commitment lies in delivering eco-friendly practices, strategic planning, and cost-effective excellence that aligns seamlessly with your needs",
+        "background": "/img/projects/1.png"
       },
       {
         "label": "Services",
         "link": "/services",
-        "content": "This is the Services section content.",
-        "background": "/img/backgrounds/services-bg.jpg"
+        "content": "",
+        "background": "/img/projects/2.png",
+        "servicesList": [
+          "Surfacing",
+          "Ground Works",
+          "Highway Maintenance",
+          "External Works",
+          "Utilities Civil Works"
+        ]
       },
       {
         "label": "Projects",
         "link": "/projects",
-        "content": "This is the Projects section content.",
-        "background": "/img/backgrounds/projects-bg.jpg"
-      },
-      {
-        "label": "Blog",
-        "link": "/blog",
-        "content": "This is the Blog section content.",
-        "background": "/img/backgrounds/blog-bg.jpg"
+        "content": "",
+        "background": "/img/projects/3.png",
+        "servicesList": [
+          "ATF Jarman Park 1414 Project",
+          "Builders Depot New Southgate",
+          "CAT 3 Washington Ave Hemel Hampstead - Ringway Project",
+          "Eurovia - Cherry Three Lane Project",
+          "Hemel Hampstead Leverstock Green Project",
+          "Ringways - ATF Marlborough St. Albans Project"
+        ]
       },
       {
         "label": "Contact",
         "link": "/contact",
-        "content": "This is the Contact section content.",
-        "background": "/img/backgrounds/contact-bg.jpg"
+        "content": "",
+        "background": "/img/projects/4.png",
+        "servicesList": [
+          "Address - 77 Vancouver Road, Edgware, Middlesex, HA8 5DG, UK",
+          "Phone - +44 7809 106913",
+          "Email - info@buteconstruction.co.uk || buteconstruction@outlook.com"
+        ]
       }
     ]
   },
   "social": [
     {
-      "link": "https://facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=61550603377370",
       "title": "Facebook"
     },
     {
-      "link": "https://twitter.com",
-      "title": "Twitter"
-    },
-    {
-      "link": "https://instagram.com",
-      "title": "Instagram"
-    },
-    {
-      "link": "https://youtube.com",
-      "title": "Youtube"
+      "link": "https://www.linkedin.com/company/bute-construction-ltd",
+      "title": "LinkedIn"
     }
   ],
   "projects": {
-    "categories": [
-      {
-        "name": "Architecture",
-        "slug": "architecture"
-      },
-      {
-        "name": "Interior",
-        "slug": "interior"
-      },
-      {
-        "name": "Decor",
-        "slug": "decor"
-      }
-    ]
+    "categories": []
   },
   "team": {
     "categories": [

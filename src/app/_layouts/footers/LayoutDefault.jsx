@@ -75,21 +75,54 @@ const DefaultFooter = () => {
                 </div>
                 <div className="col-12">
                   <div className="mil-footer-content mil-up mil-mb-90">
-                    <p className="mil-text-sm mil-up mil-light-soft">
-                      {activeItem.content}
-                    </p>
+                    {activeItem.label !== "About" && activeItem.servicesList ? (
+                      <ul
+                        className="mil-services-list"
+                        style={{ display: "flex", flexWrap: "wrap", gap: 20 }}
+                      >
+                        {activeItem.servicesList.map((service, index) => (
+                          <li
+                            className="mil-text-sm mil-up mil-light-soft"
+                            key={`service-item-${index}`}
+                          >
+                            {service}
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p
+                        className="mil-text-sm mil-up mil-light-soft"
+                        style={{ color: "white" }}
+                      >
+                        {activeItem.content}
+                      </p>
+                    )}
+                  </div>
+                  <div style={{ display: "flex" }}>
+                    <Link href="/" className="mil-footer-logo mil-up mil-mb-30">
+                      <img
+                        src={AppData.footer.logo.image}
+                        alt={AppData.footer.logo.alt}
+                        style={{ width: "130px" }}
+                      />
+                    </Link>
+                    <div className="mil-footer-logo mil-up mil-mb-30">
+                      <img
+                        src={AppData.footer.elite.image}
+                        alt={AppData.footer.elite.alt}
+                        style={{ width: "130px" }}
+                      />
+                    </div>
+                    <div className="mil-footer-logo mil-up mil-mb-30">
+                      <img
+                        src={AppData.footer.chas.image}
+                        alt={AppData.footer.chas.alt}
+                        style={{ width: "130px" }}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-4">
-              <Link href="/" className="mil-footer-logo mil-up mil-mb-30">
-                <img
-                  src={AppData.footer.logo.image}
-                  alt={AppData.footer.logo.alt}
-                  style={{ width: "130px" }}
-                />
-              </Link>
             </div>
           </div>
         </div>
@@ -97,6 +130,7 @@ const DefaultFooter = () => {
         <div className="container-fluid">
           <div className="mil-footer-bottom">
             <p className="mil-light-soft mil-mb-15">{AppData.footer.copy}</p>
+            <p className="mil-light-soft mil-mb-15">VAT 345734879</p>
             <ul className="mil-light-soft mil-mb-15">
               {AppData.social.map((item, key) => (
                 <li key={`footer-social-item-${key}`}>
