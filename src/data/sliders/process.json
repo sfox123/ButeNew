@@ -1,48 +1,34 @@
 {
-    "title": "Our process",
-    "subtitle": "How it Works",
-    "slides": [
-        [
-            {
-                "title": "We Hear",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            },
-            {
-                "title": "We Give Ideas",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            },
-            {
-                "title": "We Plan the Bases",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            }
-        ],
-        [
-            {
-                "title": "We Hear",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            },
-            {
-                "title": "We Give Ideas",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            },
-            {
-                "title": "We Plan the Bases",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            }
-        ],
-        [
-            {
-                "title": "We Hear",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            },
-            {
-                "title": "We Give Ideas",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            },
-            {
-                "title": "We Plan the Bases",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            }
-        ]
+  "title": "Our process",
+  "subtitle": "How it Works",
+  "slides": [
+    [
+      {
+        "title": "Our Values",
+        "text": "We uphold the highest ethical standards, fostering trust and transparency in all interactions."
+      },
+      {
+        "title": "Innovation",
+        "text": "We believe in pushing boundaries. Our innovative spirit drives us to adopt groundbreaking methods and technologies that revolutionize construction."
+      },
+      {
+        "title": "Collaboration",
+        "text": "Together, we're stronger. We collaborate with you, transforming your vision into reality through open dialogue and shared goals."
+      }
+    ],
+    [
+      {
+        "title": "Quality",
+        "text": "Excellence is our hallmark. We set high standards for ourselves, delivering work that speaks of our dedication to quality."
+      },
+      {
+        "title": "Sustainability",
+        "text": "Eco-conscious practices are at our core, driving us to create infrastructure that safeguards our planet's future."
+      },
+      {
+        "title": "Client-Centric",
+        "text": "You're at the heart of everything we do. Your needs steer our journey, and we tailor solutions to suit your unique requirements."
+      }
     ]
+  ]
 }

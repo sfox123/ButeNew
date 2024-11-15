@@ -1,21 +1,21 @@
 {
-    "title": "What We Do",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "items": [
-        {
-            "title": "Architecture",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
-            "link": "/services/service-1"
-        },
-        {
-            "title": "Interior Design",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
-            "link": "/services/service-2"
-        },
-        {
-            "title": "Planning",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
-            "link": "/services/service-3"
-        }
-    ]
+  "title": "What We Do",
+  "description": "-Pioneering Sustainable Transformation-",
+  "items": [
+    {
+      "title": "About us",
+      "text": "Discover Bute Construction, your trusted partner for transformative construction solutions. Based in the vibrant heart of London, we bring over three years of dedicated service to the table, by being a dynamic and experienced leader in the realm of highway maintenance, surfacing, ground works, and external projects. Our commitment lies in delivering eco-friendly practices, strategic planning, and cost-effective excellence that aligns seamlessly with your needs.",
+      "link": "/services/service-1"
+    },
+    {
+      "title": "Our Vision",
+      "text": "At Bute Construction, we envision a future where roads are not just paths to travel, but symbols of progress, reliability, and innovation. Our focus is on trailblazing eco-friendly practices, redefining surfacing materials, and reshaping construction norms. By merging strategic planning with innovative solutions, we strive to be at the forefront in creating a greener, more resilient environment.",
+      "link": "/services/service-2"
+    },
+    {
+      "title": "Our Mission",
+      "text": "Our mission is deeply rooted in our passion for craftsmanship and excellence. We're more than constructors; we're creators of transformative experiences. Whether it's resurfacing highways or sculpting external spaces, our dedication knows no bounds. Bute Construction thrives on values of integrity, transparency, and dedication. We don't just deliver projects; we build partnerships, ensuring your vision finds its form in our work.",
+      "link": "/services/service-3"
+    }
+  ]
 }

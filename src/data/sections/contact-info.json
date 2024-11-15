@@ -1,16 +1,16 @@
 {
-    "button": {
-        "label": "Find a Space",
-        "link": "/contact"
+  "button": {
+    "label": "Contact Us",
+    "link": "/contact"
+  },
+  "items": [
+    {
+      "label": "Email address",
+      "value": "buteconstruction@outlook.com"
     },
-    "items": [
-        {
-            "label": "Email address",
-            "value": "projects@ruizarch.com"
-        },
-        {
-            "label": "Free Consultation",
-            "value": "1 800 847 7978"
-        }
-    ]
+    {
+      "label": "For Consultation",
+      "value": "+44 7809 106913"
+    }
+  ]
 }
