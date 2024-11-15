@@ -122,23 +122,6 @@
     "categories": []
   },
   "team": {
-    "categories": [
-      {
-        "name": "Executive",
-        "slug": "executive"
-      },
-      {
-        "name": "Data centers",
-        "slug": "data-centers"
-      },
-      {
-        "name": "Education",
-        "slug": "education"
-      },
-      {
-        "name": "Workplace",
-        "slug": "workplace"
-      }
-    ]
+    "categories": []
   }
 }

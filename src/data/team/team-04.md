@@ -1,14 +1,14 @@
 ---
 #preview details
 image: "/img/faces/4.jpg"
-name: "Tamzyn French"
-role: "Seo Specialist"
-category_slug: "education"
+name: "Climate Change and Energy Management"
+role: "Climate Change and Energy Management"
+category_slug: "Climate Change and Energy Management"
 
 #full details
 fullImage: "/img/faces/team-member/1.jpg"
 description: "
-    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+We recognize that our industry has a significant impact on natural resources, and with the growing concern for climate change and resource depletion, there is a pressing need to reduce our environmental footprint. So, we take a comprehensive approach to managing energy and greenhouse gas emissions throughout the life cycle of our operations. This includes considering the materials we use, our operations, transportation of products, their performance during use, and recycling or disposal at the end of their life. Our investments in energy and carbon-efficient technologies, waste-derived fuels, renewable energy sources, and responsible supply chain management help reduce the carbon footprint of our products.
   "
 
 info:
