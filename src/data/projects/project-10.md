@@ -2,7 +2,7 @@
 #preview
 title: "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
 image: "/img/projects/13.png"
-category: "Project - 10"
+category: "Project-10"
 category_slug: "architecture"
 date: "may 24 2023"
 

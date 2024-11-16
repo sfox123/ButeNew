@@ -2,7 +2,7 @@
 #preview
 title: Eurovia - High Street, Tring Project
 image: /img/projects/4.png
-category: Project - 4
+category: Project-4
 category_slug: architecture
 date: may 24 2023
 

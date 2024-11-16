@@ -2,7 +2,7 @@
 #preview
 title: ATF Jarman Park
 image: /img/projects/1.png
-category: Project - 1
+category: Project-1
 category_slug: architecture
 date: may 24 2023
 

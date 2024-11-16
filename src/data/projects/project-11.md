@@ -2,7 +2,7 @@
 #preview
 title: "Work Gallery 1"
 image: "/img/projects/9.png"
-category: "Gallery - 1"
+category: "Gallery-1"
 category_slug: "architecture"
 date: "may 24 2023"
 

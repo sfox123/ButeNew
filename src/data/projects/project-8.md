@@ -2,7 +2,7 @@
 #preview
 title: "Stevenage Project"
 image: "/img/projects/8.png"
-category: "Project - 8"
+category: "Project-8"
 category_slug: "architecture"
 date: "may 24 2023"
 

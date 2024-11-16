@@ -2,7 +2,7 @@
 #preview
 title: "Ringways - ITP Bearton Road, Hitchin Project"
 image: "/img/projects/5.png"
-category: "Project - 5"
+category: "Project-5"
 category_slug: "architecture"
 date: "may 24 2023"
 

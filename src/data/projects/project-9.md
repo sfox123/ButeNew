@@ -2,7 +2,7 @@
 #preview
 title: "Welwyn Garden City"
 image: "/img/projects/12.png"
-category: "Project - 9"
+category: "Project-9"
 category_slug: "architecture"
 date: "may 24 2023"
 

@@ -2,7 +2,7 @@
 #preview
 title: "Eurovia - Cherry Three Lane Project"
 image: "/img/projects/3.png"
-category: "Project - 3"
+category: "Project-3"
 category_slug: "architecture"
 date: "may 24 2023"
 

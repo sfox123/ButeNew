@@ -2,7 +2,7 @@
 #preview
 title: "Ringways - ATF Marlborough St. Albans Project"
 image: "/img/projects/6.png"
-category: "Project - 6"
+category: "Project-6"
 category_slug: "architecture"
 date: "may 24 2023"
 
