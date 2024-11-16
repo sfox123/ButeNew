@@ -1,112 +1,90 @@
-import fs from 'fs'
-import path from 'path'
-import matter from 'gray-matter'
-import { remark } from 'remark'
-import html from 'remark-html'
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import { remark } from "remark";
+import html from "remark-html";
 
-const projectsDirectory = path.join(process.cwd(), 'src/data/projects')
+const projectsDirectory = path.join(process.cwd(), "src/data/projects");
 
 export function getSortedProjectsData() {
-  // Get file names under /posts
-  const fileNames = fs.readdirSync(projectsDirectory)
-  const allData = fileNames.map(fileName => {
-    // Remove ".md" from file name to get id
-    const id = fileName.replace(/\.md$/, '')
+  const fileNames = fs.readdirSync(projectsDirectory);
+  const allData = fileNames.map((fileName) => {
+    const id = fileName.replace(/\.[^/.]+$/, ""); // Remove file extension
 
-    // Read markdown file as string
-    const fullPath = path.join(projectsDirectory, fileName)
-    const fileContents = fs.readFileSync(fullPath, 'utf8')
+    const fullPath = path.join(projectsDirectory, fileName);
+    const fileContents = fs.readFileSync(fullPath, "utf8");
 
-    // Use gray-matter to parse the post metadata section
-    const matterResult = matter(fileContents)
+    const matterResult = matter(fileContents);
 
-    // Combine the data with the id
     return {
       id,
-      ...matterResult.data
-    }
-  })
-  // Sort posts by date
-  return allData.sort((a, b) => {
-    if (a.id > b.id) {
-      return 1
-    } else {
-      return -1
-    }
-  })
+      ...matterResult.data,
+    };
+  });
+
+  return allData.sort((a, b) => (a.id > b.id ? 1 : -1));
 }
 
 export function getRelatedProjects(current_id) {
-  // Get file names under /posts
-  const fileNames = fs.readdirSync(projectsDirectory)
+  const fileNames = fs.readdirSync(projectsDirectory);
   const allData = [];
 
-  fileNames.map(fileName => {
-    // Remove ".md" from file name to get id
-    const id = fileName.replace(/\.md$/, '')
+  fileNames.forEach((fileName) => {
+    const id = fileName.replace(/\.[^/.]+$/, "");
 
-    // Read markdown file as string
-    const fullPath = path.join(projectsDirectory, fileName)
-    const fileContents = fs.readFileSync(fullPath, 'utf8')
+    if (id !== current_id) {
+      const fullPath = path.join(projectsDirectory, fileName);
+      const fileContents = fs.readFileSync(fullPath, "utf8");
 
-    // Use gray-matter to parse the post metadata section
-    const matterResult = matter(fileContents)
+      const matterResult = matter(fileContents);
 
-    // Exclude current id from result
-
-    if ( id != current_id ) {
-      // Combine the data with the id
       allData.push({
         id,
-        ...matterResult.data
+        ...matterResult.data,
       });
     }
-  })
+  });
 
-  // Sort posts by date
-  return allData.sort((a, b) => {
-    if (a.category > b.category) {
-      return 1
-    } else {
-      return -1
-    }
-  })
+  return allData.sort((a, b) => (a.category > b.category ? 1 : -1));
 }
 
 export function getAllProjectsIds() {
-  const fileNames = fs.readdirSync(projectsDirectory)
+  const fileNames = fs.readdirSync(projectsDirectory);
 
-  return fileNames.map(fileName => {
+  return fileNames.map((fileName) => {
     return {
       params: {
-        id: fileName.replace(/\.md$/, '')
-      }
-    }
-  })
+        id: fileName.replace(/\.[^/.]+$/, ""), // Remove file extension
+      },
+    };
+  });
 }
 
 export async function getProjectData(id) {
-  const fullPath = path.join(projectsDirectory, `${id}.md`)
+  // Find the file that matches the id regardless of extension
+  const fileNames = fs.readdirSync(projectsDirectory);
+  const matchingFileName = fileNames.find(
+    (fileName) => fileName.replace(/\.[^/.]+$/, "") === id
+  );
 
-  if ( fs.existsSync(fullPath) ) {
-    const fileContents = fs.readFileSync(fullPath, 'utf8')
+  if (matchingFileName) {
+    const fullPath = path.join(projectsDirectory, matchingFileName);
+    const fileContents = fs.readFileSync(fullPath, "utf8");
 
-    // Use gray-matter to parse the post metadata section
-    const matterResult = matter(fileContents)
+    const matterResult = matter(fileContents);
 
-    // Use remark to convert markdown into HTML string
     const processedContent = await remark()
       .use(html)
-      .process(matterResult.content)
-    const contentHtml = processedContent.toString()
+      .process(matterResult.content);
+    const contentHtml = processedContent.toString();
 
-    // Combine the data with the id and contentHtml
     return {
       id,
       contentHtml,
-      ...matterResult.data
-    }
+      ...matterResult.data,
+    };
   } else {
-    return;
+    console.error(`Project with id '${id}' not found`);
+    return null;
   }
 }
