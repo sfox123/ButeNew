@@ -1,24 +1,8 @@
-import React, { Suspense } from "react";
-import dynamic from "next/dynamic";
-
+import React from "react";
 import AppData from "@data/app.json";
-
 import { getSortedPostsData } from "@library/posts";
 
-import FeaturesSection from "@components/sections/Features";
-import AboutThreeSection from "@components/sections/AboutThree";
-
-const HeroTwoSlider = dynamic(() => import("@components/sliders/HeroTwo"), {
-  ssr: false,
-});
-const TestimonialSlider = dynamic(
-  () => import("@components/sliders/Testimonial"),
-  { ssr: false }
-);
-const RecentProjectsSlider = dynamic(
-  () => import("@components/sliders/RecentProjects"),
-  { ssr: false }
-);
+import HomePageContent from "@/src/app/content/HomePageContent";
 
 export const metadata = {
   title: {
@@ -32,11 +16,7 @@ async function Home3() {
 
   return (
     <>
-      <HeroTwoSlider />
-      <FeaturesSection />
-      <AboutThreeSection />
-      <TestimonialSlider showPartners={1} />
-      <RecentProjectsSlider />
+      <HomePageContent posts={posts} />
     </>
   );
 }
