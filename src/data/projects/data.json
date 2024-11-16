@@ -1,0 +1,752 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "ATF Jarman Park",
+      "category_slug": "project-1",
+      "image": "/img/projects/1.png",
+      "category": "Project-1",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/ATF Jarman Park 1414 Project/1723571328273.jpg",
+          "alt": "ATF Jarman Park"
+        },
+        {
+          "image": "/img/projects/bute/ATF Jarman Park 1414 Project/1723571328345.jpeg",
+          "alt": "ATF Jarman Park"
+        },
+        {
+          "image": "/img/projects/bute/ATF Jarman Park 1414 Project/1723571336245.jpeg",
+          "alt": "ATF Jarman Park"
+        },
+        {
+          "image": "/img/projects/bute/ATF Jarman Park 1414 Project/1723571336571.jpeg",
+          "alt": "ATF Jarman Park"
+        },
+        {
+          "image": "/img/projects/bute/ATF Jarman Park 1414 Project/1723571336676.jpeg",
+          "alt": "ATF Jarman Park"
+        },
+        {
+          "image": "/img/projects/bute/ATF Jarman Park 1414 Project/1723571336803.jpeg",
+          "alt": "ATF Jarman Park"
+        },
+        {
+          "image": "/img/projects/bute/ATF Jarman Park 1414 Project/1723571458770.jpeg",
+          "alt": "ATF Jarman Park"
+        },
+        {
+          "image": "/img/projects/bute/ATF Jarman Park 1414 Project/1723571468390.jpeg",
+          "alt": "ATF Jarman Park"
+        },
+        {
+          "image": "/img/projects/bute/ATF Jarman Park 1414 Project/1723571469947.jpeg",
+          "alt": "ATF Jarman Park"
+        },
+        {
+          "image": "/img/projects/bute/ATF Jarman Park 1414 Project/1723571470765.jpeg",
+          "alt": "ATF Jarman Park"
+        },
+        {
+          "image": "/img/projects/bute/ATF Jarman Park 1414 Project/1723571470787.jpeg",
+          "alt": "ATF Jarman Park"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Builders Depot New Southgate",
+      "category_slug": "architecture",
+      "image": "/img/projects/2.png",
+      "category": "Project-2",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/Builders Depot New Southgate/1710802397572.jpeg",
+          "alt": "Builders Depot New Southgate"
+        },
+        {
+          "image": "/img/projects/bute/Builders Depot New Southgate/1710802398014.jpeg",
+          "alt": "Builders Depot New Southgate"
+        },
+        {
+          "image": "/img/projects/bute/Builders Depot New Southgate/1710802398813.jpeg",
+          "alt": "Builders Depot New Southgate"
+        },
+        {
+          "image": "/img/projects/bute/Builders Depot New Southgate/1710802400230.jpeg",
+          "alt": "Builders Depot New Southgate"
+        },
+        {
+          "image": "/img/projects/bute/Builders Depot New Southgate/1710802400319.jpeg",
+          "alt": "Builders Depot New Southgate"
+        },
+        {
+          "image": "/img/projects/bute/Builders Depot New Southgate/1710802400454.jpeg",
+          "alt": "Builders Depot New Southgate"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Eurovia - Cherry Three Lane Project",
+      "category_slug": "architecture",
+      "image": "/img/projects/3.png",
+      "category": "Project-3",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0071.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0072.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0073.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0074.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0075.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0076.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0077.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0080.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0081.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0082.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0083.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - Cherry Three Lane Project/IMG-20241103-WA0084.jpg",
+          "alt": "Eurovia - Cherry Three Lane Project"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Eurovia - High Street, Tring Project",
+      "category_slug": "architecture",
+      "image": "/img/projects/4.png",
+      "category": "Project-4",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0013.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0014.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0015.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0016.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0017.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0018.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0019.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0020.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0021.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0022.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0023.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0024.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0025.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0026.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0027.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0028.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0029.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0030.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0031.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0032.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0033.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0034.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0035.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0036.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0037.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0038.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0039.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0040.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        },
+        {
+          "image": "/img/projects/bute/Eurovia - High Street, Tring Project/IMG-20241103-WA0041.jpg",
+          "alt": "Eurovia - High Street, Tring Project"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ringways - ITP Bearton Road, Hitchin Project",
+      "category_slug": "architecture",
+      "image": "/img/projects/5.png",
+      "category": "Project-5",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1720197518704.jpg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1720197519738.jpg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1720197520339.jpg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1720197520375.jpg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1720197520672.jpeg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1720197520691.jpeg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1720197520704.jpeg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1730654451428.jpg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1730654452003.jpeg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1730654452043.jpeg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1730654452169.jpeg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ITP Bearton Road, Hitchin Project/1730654452633.jpeg",
+          "alt": "Ringways - ITP Bearton Road, Hitchin Project"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Ringways - ATF Marlborough St. Albans Project",
+      "category_slug": "architecture",
+      "image": "/img/projects/6.png",
+      "category": "Project-6",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1720197465183.jpg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1720197465937.jpg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1720197466152.jpg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1720197466401.jpg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1723571260598.jpg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1723571261001.jpg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1723571261747.jpg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1730653944257.jpeg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1730653944427.jpg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1730653944503.jpeg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1730653945043.jpeg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1730653945169.jpg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1730653945257.jpeg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1730653944427.jpg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1730653944503.jpeg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1730653945043.jpeg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        },
+        {
+          "image": "/img/projects/bute/Ringways - ATF Marlborough St. Albans Project/1730653945169.jpg",
+          "alt": "Ringways - ATF Marlborough St. Albans Project"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project",
+      "category_slug": "architecture",
+      "image": "/img/projects/7.png",
+      "category": "Project-7",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/1.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/2.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/3.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/4.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/5.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/6.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/7.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/8.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/9.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/10.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/11.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Stevenage Project",
+      "category_slug": "architecture",
+      "image": "/img/projects/8.png",
+      "category": "Project-8",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701102891727.jpeg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701102893885.jpeg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701102894172.jpeg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701102894629.jpeg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701102894731.jpeg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701102894756.jpeg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701103169113.jpg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701103191576.jpg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701103188411.jpg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701103191506.jpg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701103193976.jpeg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701103194355.jpg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701103194660.jpeg",
+          "alt": "Stevenage Project"
+        },
+        {
+          "image": "/img/projects/bute/Stevenage Project/1701103194707.jpeg",
+          "alt": "Stevenage Project"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Welwyn Garden City",
+      "category_slug": "architecture",
+      "image": "/img/projects/12.png",
+      "category": "Project-9",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/Welwyn Garden City/1701100983253.jpg",
+          "alt": "Welwyn Garden City"
+        },
+        {
+          "image": "/img/projects/bute/Welwyn Garden City/1701100987510.jpg",
+          "alt": "Welwyn Garden City"
+        },
+        {
+          "image": "/img/projects/bute/Welwyn Garden City/1701100988539.jpg",
+          "alt": "Welwyn Garden City"
+        },
+        {
+          "image": "/img/projects/bute/Welwyn Garden City/1701100990015.jpg",
+          "alt": "Welwyn Garden City"
+        },
+        {
+          "image": "/img/projects/bute/Welwyn Garden City/1701100990273.jpg",
+          "alt": "Welwyn Garden City"
+        },
+        {
+          "image": "/img/projects/bute/Welwyn Garden City/1701101456088.jpg",
+          "alt": "Welwyn Garden City"
+        },
+        {
+          "image": "/img/projects/bute/Welwyn Garden City/1701101458976.jpg",
+          "alt": "Welwyn Garden City"
+        },
+        {
+          "image": "/img/projects/bute/Welwyn Garden City/1701101459003.jpg",
+          "alt": "Welwyn Garden City"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project",
+      "category_slug": "architecture",
+      "image": "/img/projects/13.png",
+      "category": "Project-10",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/1.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/2.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/3.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/4.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/5.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/6.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/7.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/8.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/9.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/10.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        },
+        {
+          "image": "/img/projects/bute/CAT 3 Washington Ave Hemel Hampstead - Ringway Project/11.jpg",
+          "alt": "CAT 3 Washington Ave Hemel Hampstead - Ringway Project"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Work Gallery 1",
+      "category_slug": "architecture",
+      "image": "/img/projects/9.png",
+      "category": "Gallery-1",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/Work Gallery 1/1701102071600.jpg",
+          "alt": "Work Gallery 1"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 1/1701102086895.jpg",
+          "alt": "Work Gallery 1"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 1/1701102088546.jpg",
+          "alt": "Work Gallery 1"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 1/1701102088554.jpg",
+          "alt": "Work Gallery 1"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 1/1701102089686.jpg",
+          "alt": "Work Gallery 1"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 1/1701102092696.jpg",
+          "alt": "Work Gallery 1"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 1/1701102093134.jpg",
+          "alt": "Work Gallery 1"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 1/1701102560428.jpg",
+          "alt": "Work Gallery 1"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 1/1701102561921.jpg",
+          "alt": "Work Gallery 1"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Work Gallery 2",
+      "category_slug": "architecture",
+      "image": "/img/projects/3.png",
+      "category": "Gallery-2",
+      "gallery": [
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701102887653.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701102887737.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701102894756.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103517197.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103519154.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103524027.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103525331.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103543483.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103704873.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103706105.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103707510.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103712466.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103880769.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103884650.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701103888389.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701104039152.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701104042709.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701104043689.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701104043989.jpg",
+          "alt": "Work Gallery 2"
+        },
+        {
+          "image": "/img/projects/bute/Work Gallery 2/1701104192843.jpg",
+          "alt": "Work Gallery 2"
+        }
+      ]
+    }
+  ]
+}

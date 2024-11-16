@@ -1,15 +1,12 @@
 import React, { Suspense } from "react";
 import dynamic from "next/dynamic";
-
 import AppData from "@data/app.json";
-
+import data from "@data/projects/data.json"; // Import the data.json file
 import PageBanner from "@components/PageBanner";
 
 const ProjectsMasonry = dynamic(() => import("@components/ProjectsMasonry"), {
   ssr: false,
 });
-
-import { getSortedProjectsData } from "@library/projects";
 
 export const metadata = {
   title: {
@@ -18,8 +15,8 @@ export const metadata = {
   description: AppData.settings.siteDescription,
 };
 
-async function Projects() {
-  const projects = await getAllProjects();
+function Projects() {
+  const projects = data.projects; // Use the projects data from data.json
 
   return (
     <>
@@ -53,9 +50,5 @@ async function Projects() {
     </>
   );
 }
-export default Projects;
 
-async function getAllProjects() {
-  const allProjects = getSortedProjectsData();
-  return allProjects;
-}
+export default Projects;

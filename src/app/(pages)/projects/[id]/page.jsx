@@ -1,12 +1,7 @@
 import React, { Suspense } from "react";
 import { notFound } from "next/navigation";
 import dynamic from "next/dynamic";
-
-import {
-  getSortedProjectsData,
-  getAllProjectsIds,
-  getProjectData,
-} from "@library/projects";
+import data from "@data/projects/data.json"; // Import the data.json file
 
 import PageBannerTwo from "@components/PageBannerTwo";
 import BenefitsSection from "@components/sections/Benefits";
@@ -26,7 +21,7 @@ export async function generateMetadata({ params }) {
 
 async function ProjectDetail({ params }) {
   const postData = await getSingleProjectData(params);
-  const projects = await getAllProjects();
+  const projects = data.projects; // Use the projects data from data.json
 
   //prev next navigation
   let prev = { id: 0, key: 0 };
@@ -138,23 +133,21 @@ async function ProjectDetail({ params }) {
 export default ProjectDetail;
 
 export async function generateStaticParams() {
-  const paths = getAllProjectsIds();
+  const paths = data.projects.map((project) => ({
+    params: { id: project.id.toString() },
+  }));
 
   return paths;
 }
 
 async function getSingleProjectData(params) {
-  const postData = await getProjectData(params.id);
+  const postData = data.projects.find(
+    (project) => project.id.toString() === params.id
+  );
 
   if (!postData) {
     notFound();
   } else {
     return postData;
   }
-}
-
-async function getAllProjects() {
-  const allProjects = await getSortedProjectsData();
-
-  return allProjects;
 }
