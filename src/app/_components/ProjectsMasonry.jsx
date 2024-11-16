@@ -83,7 +83,7 @@ const ProjectsMasonry = ({ projects, categories }) => {
                 key={`projects-item-${key}`}
               >
                 <Link
-                  href={`/projects/${item.category}`}
+                  href={`/projects/${item.id}`}
                   className={
                     item.orientation == "vertical"
                       ? "mil-portfolio-item-2 mil-long-item mil-mb-30"
