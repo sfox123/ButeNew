@@ -1,29 +1,29 @@
 {
-    "items": [
-        {
-            "image": "/img/icons/4.svg",
-            "title": "SURFACING",
-            "text": "Our surfacing solutions cater to the varying requirements of our clients across residential, commercial, and industrial sectors, guaranteeing longevity and exceptional quality."
-        },
-        {
-            "image": "img/icons/9.svg",
-            "title": "GROUND WORKS",
-            "text": "Delivering excellence in groundworks services for residential and commercial projects by providing a solid foundation."
-        },
-        {
-            "image": "img/icons/9.svg",
-            "title": "HIGHWAY MAINTENANCE",
-            "text": "With expertise in a wide range of highway maintenance tasks, our skilled team excels in providing customized solutions."
-        },
-        {
-            "image": "img/icons/9.svg",
-            "title": "EXTERNAL WORKS",
-            "text": "Providing high quality workmanship to ensure that the work is completed to perfection. We are proficient to perform diverse landscaping work."
-        },
-        {
-            "image": "img/icons/5.svg",
-            "title": "UTILITIES CIVIL WORKS",
-            "text": "We ensure seamless functioning of vital utility services & maintaining the infrastructure integrity of urban environments."
-        }
-    ]
+  "items": [
+    {
+      "image": "/img/icons/1.png",
+      "title": "SURFACING",
+      "text": "Our surfacing solutions cater to the varying requirements of our clients across residential, commercial, and industrial sectors, guaranteeing longevity and exceptional quality."
+    },
+    {
+      "image": "img/icons/9.svg",
+      "title": "GROUND WORKS",
+      "text": "Delivering excellence in groundworks services for residential and commercial projects by providing a solid foundation."
+    },
+    {
+      "image": "img/icons/20.png",
+      "title": "HIGHWAY MAINTENANCE",
+      "text": "With expertise in a wide range of highway maintenance tasks, our skilled team excels in providing customized solutions."
+    },
+    {
+      "image": "img/icons/21.png",
+      "title": "EXTERNAL WORKS",
+      "text": "Providing high quality workmanship to ensure that the work is completed to perfection. We are proficient to perform diverse landscaping work."
+    },
+    {
+      "image": "img/icons/5.svg",
+      "title": "UTILITIES CIVIL WORKS",
+      "text": "We ensure seamless functioning of vital utility services & maintaining the infrastructure integrity of urban environments."
+    }
+  ]
 }

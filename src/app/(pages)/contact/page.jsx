@@ -18,7 +18,7 @@ const Contact = () => {
       <PageBanner
         pageTitle={"We’d love to talk"}
         breadTitle={"Contact"}
-        bgImage={"/img/photo/12.jpg"}
+        bgImage={"/img/projects/12.png"}
       />
       <ContactPageContent />
     </>

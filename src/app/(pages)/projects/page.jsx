@@ -16,7 +16,7 @@ function Projects() {
       <PageBanner
         pageTitle={"Projects"}
         breadTitle={"Projects"}
-        bgImage={"/img/photo/12.jpg"}
+        bgImage={"/img/projects/10.png"}
       />
       <ProjectsPageContent />
     </>

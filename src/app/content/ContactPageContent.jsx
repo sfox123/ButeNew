@@ -41,14 +41,13 @@ function ContactPageContent() {
                 <div className="mil-sidebar-info">
                   <h6 className="mil-upper mil-up mil-mb-30">Address</h6>
                   <ul className="mil-list mil-dark mil-up mil-mb-30">
-                    <li>UK</li>
-                    <li>77 Vancouver Road, Edgwaret</li>
-                    <li>Middlesex, HA8 5DG</li>
+                    <li>
+                      77, Vancouver Road, Edgware, Middlesex, HA8 5DG , UK
+                    </li>
                   </ul>
                   <h6 className="mil-upper mil-up mil-mb-30">E-mail</h6>
                   <ul className="mil-list mil-dark mil-up mil-mb-30">
                     <li>info@buteconstruction.co.uk</li>
-                    <li>buteconstruction@outlook.com</li>
                   </ul>
                   <h6 className="mil-upper mil-up mil-mb-30">Phone</h6>
                   <ul className="mil-list mil-dark mil-up">

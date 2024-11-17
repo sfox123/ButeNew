@@ -78,7 +78,7 @@ const TeamMasonry = ({ team, categories }) => {
             className={`col-sm-6 col-lg-3 mil-grid-item mil-up ${item.category_slug}`}
             key={`team-item-${key}`}
           >
-            <Link href={`/team/${item.id}`} className="mil-team-member">
+            <Link href={`#`} className="mil-team-member">
               <h6 className="mil-upper mil-mb-10">{item.name}</h6>
               <p className="mil-dark-soft">{item.description}</p>
             </Link>

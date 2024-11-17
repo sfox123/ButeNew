@@ -4,15 +4,15 @@ import data from "@data/projects/data.json";
 import ProjectDetailContent from "@/src/app/content/ProjectDetailContent";
 
 export async function generateMetadata({ params }) {
-  const postData = await getSingleProjectData(params);
+  const postData = getSingleProjectData(params);
 
   return {
     title: postData.title + " | Projects",
   };
 }
 
-async function ProjectDetail({ params }) {
-  const postData = await getSingleProjectData(params);
+function ProjectDetail({ params }) {
+  const postData = getSingleProjectData(params);
 
   // Calculate previous and next projects
   const { prev, next } = getPrevNextProjects(postData);
@@ -26,16 +26,16 @@ async function ProjectDetail({ params }) {
 
 export default ProjectDetail;
 
-export async function generateStaticParams() {
-  const paths = await data.projects.map((project) => ({
+export function generateStaticParams() {
+  const paths = data.projects.map((project) => ({
     id: project.id.toString(),
   }));
 
   return paths;
 }
 
-async function getSingleProjectData(params) {
-  const postData = await data.projects.find(
+function getSingleProjectData(params) {
+  const postData = data.projects.find(
     (project) => project.id.toString() === params.id
   );
 

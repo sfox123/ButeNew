@@ -4,12 +4,14 @@ import React, { Suspense } from "react";
 import dynamic from "next/dynamic";
 import PageBannerTwo from "@components/PageBannerTwo";
 import Link from "next/link";
+import MyGallery from "../_components/sliders/ImageGallery";
 
 const FullImageSlider = dynamic(() => import("@components/sliders/FullImage"), {
   ssr: false,
 });
 
 function ProjectDetailContent({ postData, prev, next }) {
+  console.log(postData.gallery);
   return (
     <>
       <PageBannerTwo
@@ -26,7 +28,7 @@ function ProjectDetailContent({ postData, prev, next }) {
       </div>
 
       <Suspense fallback={<div>Loading...</div>}>
-        <FullImageSlider items={postData.gallery} />
+        <MyGallery items={postData.gallery} />
       </Suspense>
 
       {/* Resume */}

@@ -54,9 +54,6 @@ const TestimonialSlider = ({ showPartners = 1 }) => {
                           <div className="mil-quote">
                             <img src="/img/icons/12.svg" alt="icon" />
                           </div>
-                          <div className="mil-review-avatar">
-                            <img src={item.image} alt={item.name} />
-                          </div>
                         </div>
                         <div className="mil-name">
                           <h6 className="mil-upper">{item.name}</h6>

@@ -52,7 +52,7 @@ const HeroTwoSlider = () => {
                       dangerouslySetInnerHTML={{ __html: item.title }}
                     />
                     <Link
-                      href={item.link}
+                      href={"/contact"}
                       className="mil-link mil-light mil-upper"
                     >
                       contact us
