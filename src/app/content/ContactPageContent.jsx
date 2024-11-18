@@ -17,10 +17,8 @@ function ContactPageContent() {
               <div className="mil-mb-90">
                 <h2 className="mil-upper mil-up mil-mb-30">Info Contact</h2>
                 <p className="mil-up mil-mb-40">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more or less
-                  normal distribution of letters.
+                  We value open communication and are committed to delivering
+                  exceptional service for all your construction needs.
                 </p>
               </div>
             </div>
@@ -86,20 +84,11 @@ function ContactPageContent() {
                   We’d love to talk
                 </h2>
                 <p className="mil-up mil-mb-30">
-                  Have a question? We’d love to hear from you. Send us a note to
-                  get the conversation started—or click on an office above and
-                  talk to us. Especially about designing something, or something
-                  we’ve designed.
+                  Have a question? Our team is here to help. Reach out to us
+                  we’ll respond promptly. Let’s build something
+                  extraordinary together!
                 </p>
                 <div className="mil-divider-lg mil-up mil-mb-30" />
-                <div className="mil-up">
-                  <Link href="/team" className="mil-link mil-upper">
-                    Join Us{" "}
-                    <span className="mil-arrow">
-                      <img src="/img/icons/1.svg" alt="arrow" />
-                    </span>
-                  </Link>
-                </div>
               </div>
             </div>
             <div className="col-lg-7">

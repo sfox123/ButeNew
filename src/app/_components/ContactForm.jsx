@@ -7,10 +7,10 @@ import AppData from "@data/app.json";
 
 const ContactForm = ({ subtitleOffset }) => {
   const initialFormData = {
-    name: "",
+    fullname: "",
     email: "",
-    tel: "",
-    message: "",
+    number: "",
+    query: "",
   };
 
   const [formData, setFormData] = useState(initialFormData);
@@ -82,7 +82,7 @@ const ContactForm = ({ subtitleOffset }) => {
               <input
                 type="text"
                 placeholder="Enter Your Name Here"
-                name="name"
+                name="fullname"
                 required="required"
                 onChange={handleChange}
                 value={formData.name}
@@ -114,7 +114,7 @@ const ContactForm = ({ subtitleOffset }) => {
               <input
                 type="tel"
                 placeholder="Enter Your Phone Here"
-                name="tel"
+                name="number"
                 required="required"
                 onChange={handleChange}
                 value={formData.tel}
@@ -129,7 +129,7 @@ const ContactForm = ({ subtitleOffset }) => {
               </label>
               <textarea
                 placeholder="Enter Your Message Here"
-                name="message"
+                name="query"
                 required="required"
                 onChange={handleChange}
                 value={formData.message}
