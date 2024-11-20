@@ -1,25 +1,25 @@
 {
   "items": [
     {
-      "image": "https://buteconstruction.co.uk/static/media/s_3.21cb1fe791f9c52a5255.jpeg",
+      "image": "/img/projects/c_1.png",
       "alt": "image",
       "subtitle": "partner in construction",
       "title": "Bute construction <br>Building with <br> <span class=\"mil-accent\">Vision, Quality & Pride  </span>",
-      "link": "/projects/project-1"
+      "link": "/img/projects/c_1.png"
     },
     {
-      "image": "https://buteconstruction.co.uk/static/media/ww.a63e7c47798ca4691820.png",
+      "image": "/img/projects/2.jpeg",
       "alt": "image",
       "subtitle": "sustainable solutions",
       "title": "Bute Construction, <br>with <span class=\"mil-accent\">a reputation built</span> <br>over time",
-      "link": "/projects/project-2"
+      "link": "/img/projects/2.jpeg"
     },
     {
-      "image": "https://buteconstruction.co.uk/static/media/highwall-min.fb94be3d6af0de22b57f.jpeg",
+      "image": "/img/projects/3.jpeg",
       "alt": "image",
       "subtitle": "expectations exceeded",
       "title": "<br><span class=\"mil-accent\">SUSTAINABLE SOLUTIONS</span><br>TAILORED TO YOUR NEED",
-      "link": "/projects/project-3"
+      "link": "/img/projects/3.jpeg"
     }
   ]
 }
